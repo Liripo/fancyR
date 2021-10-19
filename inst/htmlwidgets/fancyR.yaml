@@ -1,0 +1,11 @@
+# (uncomment to add a dependency)
+dependencies:
+ - name: fancyapp-ui
+   version: 4.0.0
+   src: htmlwidgets/ui/dist
+   script: fancybox.umd.js
+   stylesheet: fancybox.css
+ - name: fancyR
+   version: 0.0.1
+   src: htmlwidgets/fancyR
+   stylesheet: fancyR.css
